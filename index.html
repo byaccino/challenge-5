@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="Assets/css/style.css"> 
+</head>
+<body>
+    <header class = "site-header">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <div id="weather-dashboard">
+        <div id="search-section">
+            <h2>Search for a City: </h2>
+            <input type="text" id="city-input" placeholder="Enter a city">
+            <button id="search-btn">Search Weather</button>
+        </div>
+        <div id="weather-display">
+            <h2 id="city-name"></h2>
+            <div id="weather-details">
+                <p><strong>Temperature:</strong> <span id="temperature"></span>°C</p>
+                <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+                <p><strong>Wind Speed:</strong> <span id="wind-speed"></span> km/h</p>
+                <p><strong>Weather Conditions:</strong> <span id="weather-conditions"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script> 
+</body>
+</html>
